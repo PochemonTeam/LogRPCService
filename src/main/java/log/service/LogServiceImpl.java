@@ -38,6 +38,7 @@ public class LogServiceImpl extends LogServiceImplBase {
 
 			jsonObject.put("userId", info.getUsername());
 			jsonObject.put("date", info.getDate());
+			jsonObject.put("success", info.getSuccess());
 			file.write(jsonObject.toJSONString());
 			file.write(System.lineSeparator());
 			file.close();
