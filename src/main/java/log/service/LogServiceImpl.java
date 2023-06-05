@@ -11,7 +11,6 @@ import net.devh.boot.grpc.server.service.GrpcService;
 import pochemon.log.Info;
 import pochemon.log.LogServiceGrpc.LogServiceImplBase;
 import pochemon.log.Saved;
-
 @GrpcService
 public class LogServiceImpl extends LogServiceImplBase {
 
